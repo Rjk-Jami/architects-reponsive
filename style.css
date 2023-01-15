@@ -75,7 +75,20 @@ margin: 0 0px;
     color: white;
     text-align: center;
     border: none;
+    transition: 0.25s;
+  }
+
+/* hover */
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 black; }
+  }
+.btn-primary:hover{
+    color: white;
+    background-color:#727272;
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2em transparent;
 }
+
 .banner-images{
     margin:50px 100px 85px 100px;
     padding-bottom: 45px;
@@ -193,7 +206,15 @@ background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: 0.25s;
 
+}
+/* hover */
+.btn-exp:hover{
+    color: white;
+    background-color:#727272;
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2em transparent;
 }
 .btn-exp-Experience{
     font-size: 18px;
@@ -272,4 +293,133 @@ margin-bottom: 50px;
     font-size: 20px;
     color: #424242;
     padding: 40px 0;
+}
+/* media for mobile device */
+@media screen and (max-width:688px) {
+body{
+    width: 100%;
+}
+    .header-bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    
+    }  
+    .website-name{
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    nav ul{
+        gap: 20px;
+    }
+    .banner-title{
+        font-size: 46px;
+    }
+    .banner-subtitle{
+        width: 100%;
+    }
+    .banner-images{
+        margin:30px 0px 85px 20px;
+        padding-bottom: 45pxpx;
+        padding: 0 20px;
+        width: 80%;
+    }
+    .features{
+        flex-direction: column;
+        text-align: center;
+    }
+    .features-images{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:24px;
+    }
+    .features-subtitle{
+        width: 100%;
+        margin: 0 0 24px 0;
+    }
+    .blogs{
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+    }
+    .blog-title{
+        width: 50%;
+        margin-left: 20px;
+    }
+    .blog-subtitle{
+        width: 50%;
+        margin-left: 20px;
+        text-align: justify;
+    }
+    .work{
+        width: 55%;
+        padding: 15px 21px 15px 15px;
+        margin-left: 20px;
+    }
+    .Experience{
+        background-image: none;
+        width: auto;
+    height: auto;
+    justify-content: center;
+    }
+    .btn-exp{
+        margin: 0;
+        margin-top: 20px;
+    }
+    .facts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .facts-title{
+        font-weight: bold;
+        font-size: 45px;
+        margin-bottom: 24px;
+        text-align: center;
+        
+        }
+        .facts-subtitle{
+        font-size: 16px;
+        color: #727272;
+        margin-bottom: 30px;
+        text-align: center;
+        }
+        .about-us{
+            flex-direction: column;
+            gap: 30px;
+            margin-bottom: 50px;
+            
+        }
+        .sponsors-list{
+            /* display: flex;
+            flex-direction: column;
+            gap: 30px; */
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            justify-items: center;
+            grid-row-gap: 30px;
+            margin:0;
+
+        }
+        .footer{
+            margin-top: 0;
+        }
+        main{
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
 }
