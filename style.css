@@ -7,11 +7,12 @@
     font-family: 'Work Sans', sans-serif;
     color: #131313;
 }
-main {
+main{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+
 }
 /* header style */
 .header{
@@ -173,4 +174,63 @@ background-repeat: no-repeat;
     font-style: medium;
     color: white;
     text-align: center;
+}
+/* facts style */
+.facts-title{
+font-weight: bold;
+font-size: 45px;
+margin-bottom: 24px;
+
+}
+.facts-subtitle{
+font-size: 16px;
+color: #727272;
+margin-bottom: 100px;
+}
+.facts-details{
+}
+/* about style */
+.about-us{
+    display: flex;
+    gap:124px ;
+    margin-bottom: 180px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px 36px 59px 35px;
+
+}
+.about img{
+    margin-bottom: 10px;
+}
+.about-number{
+font-size: 45px;
+font-weight: 700;
+color: #424242;
+}
+.about-name{
+font-size: 20px;
+font-weight: 700;
+color: #727272;
+}
+/* Sponsors style */
+.sponsors-title{
+font-size: 45px;
+font-weight: bold;
+text-align: center;
+margin-bottom: 24px;
+}
+.sponsors-subtitle{
+font-size: 16px;
+color: #727272;
+text-align: center;
+margin-bottom: 50px;
+}
+.sponsors-list{
+    display: flex;
+    gap: 150px;
 }
