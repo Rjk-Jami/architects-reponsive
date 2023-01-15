@@ -5,8 +5,14 @@
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
+    color: #131313;
 }
-
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 /* header style */
 .header{
     background-color:rgba(255, 144, 14, 0.1); 
@@ -44,7 +50,8 @@ margin: 0 0px;
     border: none;
 }
 .banner-images{
-    margin:50px 50px;
+    margin:50px 50px 85px 50px;
+    padding-bottom: 45px;
     /* width: 100%; */
 }
 .banner-images img{
@@ -55,12 +62,13 @@ margin: 0 0px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap:24px;
-    margin:  70px 70px 0 70px;
+    
 }
 .features{
     display: flex;
     align-items: center;
-    margin-bottom: 130px;
+    gap: 70px;
+    margin-bottom: 85px;
 }
 .features-details{
     display: flex;
@@ -85,4 +93,84 @@ font-size: 45px;
     color: #727272;
     font-weight: 400;
 font-size: 16px;
+}
+/* blogs style */
+.blogs{
+    display: flex;
+    gap: 146px;
+    margin-bottom: 146px;
+}
+article{
+    width: 586px;
+    padding-top: 30px;
+}
+.blog-title{
+    font-weight: 700;
+    font-size: 45px;
+    width: 468px;
+    margin-bottom: 24px;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+.blog-subtitle{
+    color: #727272;
+    font-weight: 400;
+font-size: 16px;
+margin-bottom: 30px;
+}
+/* work style */
+.works{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.work{
+    
+    padding: 30px 42px 30px 30px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+}
+.work-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+.work-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+/* Experience */
+.Experience{
+    display: flex;
+    align-items: flex-end;
+    width: 608px;
+height: 852px;
+background-repeat: no-repeat;
+    background-image: url(images/architect.png);
+    
+}
+.btn-exp{
+    font-weight: 900;
+    font-size: 42px;
+    padding: 46px 42px 45px 42px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    border: none; 
+    margin-left:-92px ;
+    margin-bottom: -77px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.btn-exp-Experience{
+    font-size: 18px;
+    font-style: medium;
+    color: white;
+    text-align: center;
 }
