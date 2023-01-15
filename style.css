@@ -18,6 +18,32 @@ main{
 .header{
     background-color:rgba(255, 144, 14, 0.1); 
 }
+.header-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px 100px 100px;
+
+}
+.website-name{
+    font-weight: 700;
+font-size: 45px;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+}
+nav ul li{
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #424242;
+}
+
+
+
+/* banner style */
 .banner-details{
 display: flex;
 flex-direction: column;
@@ -51,7 +77,7 @@ margin: 0 0px;
     border: none;
 }
 .banner-images{
-    margin:50px 50px 85px 50px;
+    margin:50px 100px 85px 100px;
     padding-bottom: 45px;
     /* width: 100%; */
 }
