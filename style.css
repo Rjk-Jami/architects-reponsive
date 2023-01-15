@@ -54,4 +54,35 @@ margin: 0 0px;
 .features-images{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    gap:24px;
+    margin:  70px 70px 0 70px;
+}
+.features{
+    display: flex;
+    align-items: center;
+    margin-bottom: 130px;
+}
+.features-details{
+    display: flex;
+    flex-direction: column;
+}
+.features-title{
+    font-weight: 700;
+font-size: 45px;
+margin-bottom: 24px;
+}
+.features-title-1{
+    color: #727272;
+    font-weight: 500;
+font-size: 45px;
+}
+.features-title-3{
+    color: #FF900E;
+}
+.features-subtitle{
+    margin-bottom: 32px;
+    width: 537px;
+    color: #727272;
+    font-weight: 400;
+font-size: 16px;
 }
